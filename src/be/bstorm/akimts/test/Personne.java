@@ -1,6 +1,5 @@
 package be.bstorm.akimts.test;
 
-@Con
 public class Personne {
 
     // a tester:

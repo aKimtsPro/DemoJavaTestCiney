@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="840a4648-bd88-403d-ba57-9344e06f2b00" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DemoJavaTesting.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/bstorm/akimts/test/ClassGetter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/bstorm/akimts/test/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/bstorm/akimts/test/NiveauConnerie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/bstorm/akimts/test/Personne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/be/bstorm/akimts/test/PersonneTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="840a4648-bd88-403d-ba57-9344e06f2b00" name="Changes" comment="init commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,7 +40,8 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": ""
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "nodejs_package_manager_path": "npm"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -93,8 +80,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669277925469</updated>
-      <workItem from="1669277926961" duration="6969000" />
+      <workItem from="1669277926961" duration="7341000" />
     </task>
+    <task id="LOCAL-00001" summary="init commit">
+      <created>1669285203989</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669285203989</updated>
+    </task>
+    <task id="LOCAL-00002" summary="init commit">
+      <created>1669285271687</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669285271687</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,5 +112,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
   </component>
 </project>

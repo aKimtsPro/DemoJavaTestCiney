@@ -6,7 +6,6 @@ package be.bstorm.akimts.test;
  * @author A.Kimtsaris
  * @see Con
  */
-@Con(NiveauConnerie.DEBILE)
 public enum NiveauConnerie {
 
     BETE,
