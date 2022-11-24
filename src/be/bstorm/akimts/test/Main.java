@@ -11,9 +11,9 @@ public class Main {
         Personne p = new Personne("luc", 89);
         Class<? extends Personne> clazz = p.getClass();
 
-        Con con;
+        DeCon con;
         for (Class<?> aClass : classes) {
-            if( (con = aClass.getAnnotation(Con.class)) != null )
+            if( (con = aClass.getAnnotation(DeCon.class)) != null )
                 System.out.println("La classe " + aClass.getSimpleName() + " est conne à un niveau: " + con.value() );
             else
                 System.out.println("La classe " + aClass.getSimpleName() + " n'est pas conne");
