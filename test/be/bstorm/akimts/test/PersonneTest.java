@@ -1,7 +1,8 @@
 package be.bstorm.akimts.test;
 
-import org.junit.jupiter.api.Disabled;
-import org.junit.jupiter.api.Test;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.junit.jupiter.api.*;
 
 import java.time.Duration;
 import java.time.temporal.ChronoUnit;
@@ -10,8 +11,30 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class PersonneTest {
 
-    @Disabled
+    private final static Logger log = LogManager.getLogger(PersonneTest.class);
+
+    @BeforeAll
+    public static void beforeAll(){
+        System.out.println("Les tests de la classe Personne commence");
+    }
+
+    @AfterAll
+    public static void afterAll(){
+        System.out.println("Les tests de la classe Personne sont terminés");
+    }
+
+    @BeforeEach
+    public void beforeEach(){
+        System.out.println("avant chaque test");
+    }
+
+    @AfterEach
+    public void afterEach(){
+        System.out.println("après chaque test");
+    }
+
     @Test
+    @Disabled
     void allAsserts(){
 
         // Si un test echoue, la méthode suivante est appelée
