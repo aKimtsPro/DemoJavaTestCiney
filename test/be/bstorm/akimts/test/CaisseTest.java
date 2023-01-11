@@ -1,10 +1,10 @@
 package be.bstorm.akimts.test;
 
 import be.bstorm.akimts.test.calc.Calculatrice;
-import org.junit.jupiter.api.Assertions;
+import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.mockito.Mockito;
+import static org.mockito.Mockito.*;
 
 public class CaisseTest {
 
@@ -13,11 +13,11 @@ public class CaisseTest {
     @BeforeEach
     public void setup(){
 
-        Calculatrice calculatrice = Mockito.mock();
+        Calculatrice calculatrice = mock();
 
-        Mockito.when( calculatrice.addition(0, 4) )
+        when( calculatrice.addition(0, 4) )
                 .thenReturn(4);
-        Mockito.when( calculatrice.addition(4, Integer.MAX_VALUE) )
+        when( calculatrice.addition(4, Integer.MAX_VALUE) )
                 .thenReturn( Integer.MAX_VALUE );
 
         caisse = new Caisse( calculatrice );
@@ -29,7 +29,7 @@ public class CaisseTest {
         caisse.accepterAchat(4);
         int soldeFinal = caisse.getSolde();
 
-        Assertions.assertEquals(4, soldeFinal);
+        assertEquals(4, soldeFinal);
     }
 
 
