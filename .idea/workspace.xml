@@ -4,33 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="840a4648-bd88-403d-ba57-9344e06f2b00" name="Changes" comment="init commit">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_19_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_19_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/test/calc/Calculatrice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/be/bstorm/akimts/test/EquipeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="840a4648-bd88-403d-ba57-9344e06f2b00" name="Changes" comment="reexplication + enonce Calculatrice (error fix)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/test/Caisse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/test/calc/CalculatriceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/be/bstorm/akimts/test/CaisseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoJavaTesting.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DemoJavaTesting.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/be/bstorm/akimts/test/ClassGetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/test/ClassGetter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/be/bstorm/akimts/test/DeCon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/test/DeCon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/be/bstorm/akimts/test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/test/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/be/bstorm/akimts/test/NiveauConnerie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/test/NiveauConnerie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/be/bstorm/akimts/test/Personne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/test/Personne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/be/bstorm/akimts/test/exo/annot/Basketteur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/test/exo/annot/Basketteur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/be/bstorm/akimts/test/exo/annot/EnEquipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/test/exo/annot/EnEquipe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/be/bstorm/akimts/test/exo/annot/Equipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/test/exo/annot/Equipe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/be/bstorm/akimts/test/exo/annot/Golfeur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/test/exo/annot/Golfeur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/be/bstorm/akimts/test/exo/annot/InvalidTailleException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/test/exo/annot/InvalidTailleException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/be/bstorm/akimts/test/exo/annot/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/test/exo/annot/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/be/bstorm/akimts/test/exo/annot/NotEnEquipeException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/test/exo/annot/NotEnEquipeException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/be/bstorm/akimts/test/exo/annot/Sportif.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/test/exo/annot/Sportif.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/be/bstorm/akimts/test/exo/annot/TeamSizeExceededException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/test/exo/annot/TeamSizeExceededException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/be/bstorm/akimts/test/PersonneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/be/bstorm/akimts/test/PersonneTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/test/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/be/bstorm/akimts/test/CalculatriceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/be/bstorm/akimts/test/CalculatriceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,8 +24,8 @@
         <option value="JUnit5 Test Class" />
         <option value="Enum" />
         <option value="AnnotationType" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -96,7 +77,51 @@
       <recent name="be.bstorm.akimts.test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PersonneTest">
+  <component name="RunManager" selected="JUnit.CaisseTest.accepterAchat_whenNoOverflow">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="be.bstorm.akimts.test.Main" />
+      <module name="DemoJavaTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.bstorm.akimts.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CaisseTest.accepterAchat_whenNoOverflow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DemoJavaTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.bstorm.akimts.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="be.bstorm.akimts.test" />
+      <option name="MAIN_CLASS_NAME" value="be.bstorm.akimts.test.CaisseTest" />
+      <option name="METHOD_NAME" value="accepterAchat_whenNoOverflow" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatriceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DemoJavaTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.bstorm.akimts.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="be.bstorm.akimts.test" />
+      <option name="MAIN_CLASS_NAME" value="be.bstorm.akimts.test.CalculatriceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EquipeTest.ajouter_whenSportif_null" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DemoJavaTesting" />
       <extension name="coverage">
@@ -128,61 +153,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonneTest.ctor_ageInvalid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DemoJavaTesting" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="be.bstorm.akimts.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="be.bstorm.akimts.test" />
-      <option name="MAIN_CLASS_NAME" value="be.bstorm.akimts.test.PersonneTest" />
-      <option name="METHOD_NAME" value="ctor_ageInvalid" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PersonneTest.setNom_valid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DemoJavaTesting" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="be.bstorm.akimts.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="be.bstorm.akimts.test" />
-      <option name="MAIN_CLASS_NAME" value="be.bstorm.akimts.test.PersonneTest" />
-      <option name="METHOD_NAME" value="setNom_valid" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PersonneTest.vieillir" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DemoJavaTesting" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="be.bstorm.akimts.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="be.bstorm.akimts.test" />
-      <option name="MAIN_CLASS_NAME" value="be.bstorm.akimts.test.PersonneTest" />
-      <option name="METHOD_NAME" value="vieillir" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CaisseTest.accepterAchat_whenNoOverflow" />
+        <item itemvalue="JUnit.CalculatriceTest" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.PersonneTest" />
         <item itemvalue="JUnit.EquipeTest.ajouter_whenSportif_null" />
-        <item itemvalue="JUnit.PersonneTest.ctor_ageInvalid" />
-        <item itemvalue="JUnit.PersonneTest.vieillir" />
-        <item itemvalue="JUnit.PersonneTest.setNom_valid" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +172,7 @@
       <option name="presentableId" value="Default" />
       <updated>1669277925469</updated>
       <workItem from="1669277926961" duration="16378000" />
-      <workItem from="1673425012105" duration="3035000" />
+      <workItem from="1673425012105" duration="10462000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1669285203989</created>
@@ -225,7 +202,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669286104369</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="reexplication + enonce Calculatrice">
+      <created>1673428494119</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1673428494119</updated>
+    </task>
+    <task id="LOCAL-00006" summary="reexplication + enonce Calculatrice (error fix)">
+      <created>1673428532574</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1673428532574</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,6 +235,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
+    <MESSAGE value="reexplication + enonce Calculatrice" />
+    <MESSAGE value="reexplication + enonce Calculatrice (error fix)" />
+    <option name="LAST_COMMIT_MESSAGE" value="reexplication + enonce Calculatrice (error fix)" />
   </component>
 </project>
