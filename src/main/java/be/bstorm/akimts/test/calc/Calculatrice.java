@@ -12,8 +12,7 @@ public interface Calculatrice {
      * @param b
      * @return le resultat
      */
-    default int addition(int a, int b){
-    }
+    int addition(int a, int b);
 
     /**
      * calcule le resultat de la soustraction
