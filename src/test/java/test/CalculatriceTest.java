@@ -1,4 +1,4 @@
-package be.bstorm.akimts.test;
+package test;
 
 import be.bstorm.akimts.test.calc.Calculatrice;
 import static org.junit.jupiter.api.Assertions.*;

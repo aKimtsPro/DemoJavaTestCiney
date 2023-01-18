@@ -4,14 +4,45 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="840a4648-bd88-403d-ba57-9344e06f2b00" name="Changes" comment="reexplication + enonce Calculatrice (error fix)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/test/Caisse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/test/calc/CalculatriceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/be/bstorm/akimts/test/CaisseTest.java" afterDir="false" />
+    <list default="true" id="840a4648-bd88-403d-ba57-9344e06f2b00" name="Changes" comment="caisse + explication mockito (with static import)">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_ci_environment_9_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_cucumber_core_7_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_cucumber_expressions_16_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_cucumber_gherkin_7_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_cucumber_gherkin_messages_7_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_cucumber_java_7_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_cucumber_junit_7_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_cucumber_plugin_7_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_datatable_7_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_docstring_7_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_gherkin_25_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_html_formatter_20_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_messages_19_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_tag_expressions_4_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_12_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_12_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_4_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/CaisseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/CucumberTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/StepDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/calculatrice_addition.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/calculatrice_division.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DemoJavaTesting.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DemoJavaTesting.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/test/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/be/bstorm/akimts/test/CalculatriceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/be/bstorm/akimts/test/CalculatriceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/be/bstorm/akimts/test/CaisseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/be/bstorm/akimts/test/CalculatriceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/CalculatriceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/be/bstorm/akimts/test/EquipeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/EquipeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/be/bstorm/akimts/test/PersonneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/PersonneTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +86,7 @@
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "C:/Users/akimt/IdeaProjects/testing/DemoJavaTestCiney/src/test/resources/features",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -70,6 +102,9 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="be.bstorm.akimts.test.exo.annot" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\akimt\IdeaProjects\testing\DemoJavaTestCiney\src\test\resources\features" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -77,13 +112,19 @@
       <recent name="be.bstorm.akimts.test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CaisseTest.accepterAchat_whenNoOverflow">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="be.bstorm.akimts.test.Main" />
+  <component name="RunManager" selected="JUnit.CucumberTest">
+    <configuration name="Feature: calculatrice" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/calculatrice.feature" />
+      <option name="GLUE" value="test" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="DemoJavaTesting" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: calculatrice" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="be.bstorm.akimts.test.*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,63 +132,75 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CaisseTest.accepterAchat_whenNoOverflow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: calculatrice_division" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/calculatrice_division.feature" />
+      <option name="GLUE" value="test" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="DemoJavaTesting" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: calculatrice_division" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="be.bstorm.akimts.test.*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="be.bstorm.akimts.test" />
-      <option name="MAIN_CLASS_NAME" value="be.bstorm.akimts.test.CaisseTest" />
-      <option name="METHOD_NAME" value="accepterAchat_whenNoOverflow" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatriceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: addition success" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/calculatrice.feature" />
+      <option name="GLUE" value="test" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="DemoJavaTesting" />
+      <option name="NAME_FILTER" value="^addition success$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^addition success$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: addition success" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="be.bstorm.akimts.test.*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="be.bstorm.akimts.test" />
-      <option name="MAIN_CLASS_NAME" value="be.bstorm.akimts.test.CalculatriceTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EquipeTest.ajouter_whenSportif_null" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: division success" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/calculatrice_division.feature" />
+      <option name="GLUE" value="test" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="DemoJavaTesting" />
+      <option name="NAME_FILTER" value="^division success$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^division success$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: division success" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="be.bstorm.akimts.test.*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="be.bstorm.akimts.test" />
-      <option name="MAIN_CLASS_NAME" value="be.bstorm.akimts.test.EquipeTest" />
-      <option name="METHOD_NAME" value="ajouter_whenSportif_null" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CucumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DemoJavaTesting" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="be.bstorm.akimts.test.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="be.bstorm.akimts.test" />
-      <option name="MAIN_CLASS_NAME" value="be.bstorm.akimts.test.PersonneTest" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.CucumberTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -155,11 +208,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CaisseTest.accepterAchat_whenNoOverflow" />
-        <item itemvalue="JUnit.CalculatriceTest" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.PersonneTest" />
-        <item itemvalue="JUnit.EquipeTest.ajouter_whenSportif_null" />
+        <item itemvalue="JUnit.CucumberTest" />
+        <item itemvalue="Cucumber Java.Scenario: division success" />
+        <item itemvalue="Cucumber Java.Feature: calculatrice_division" />
+        <item itemvalue="Cucumber Java.Feature: calculatrice" />
+        <item itemvalue="Cucumber Java.Scenario: addition success" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +225,8 @@
       <option name="presentableId" value="Default" />
       <updated>1669277925469</updated>
       <workItem from="1669277926961" duration="16378000" />
-      <workItem from="1673425012105" duration="10462000" />
+      <workItem from="1673425012105" duration="14714000" />
+      <workItem from="1674002865265" duration="6231000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1669285203989</created>
@@ -216,7 +270,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673428532574</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="caisse + explication mockito">
+      <created>1673441299050</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1673441299050</updated>
+    </task>
+    <task id="LOCAL-00008" summary="caisse + explication mockito (with static import)">
+      <created>1673441392375</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1673441392375</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,6 +305,8 @@
     <MESSAGE value="init commit" />
     <MESSAGE value="reexplication + enonce Calculatrice" />
     <MESSAGE value="reexplication + enonce Calculatrice (error fix)" />
-    <option name="LAST_COMMIT_MESSAGE" value="reexplication + enonce Calculatrice (error fix)" />
+    <MESSAGE value="caisse + explication mockito" />
+    <MESSAGE value="caisse + explication mockito (with static import)" />
+    <option name="LAST_COMMIT_MESSAGE" value="caisse + explication mockito (with static import)" />
   </component>
 </project>

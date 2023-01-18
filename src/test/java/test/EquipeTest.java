@@ -1,4 +1,4 @@
-package be.bstorm.akimts.test;
+package test;
 
 
 
